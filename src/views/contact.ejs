@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> <%= title %> </title>
+    
+    <%- include('partials/head.ejs') %>
+</head>
+<body>
+    <%- include('partials/navBar.ejs') %>
+
+    <div class="container p-5">
+        <div class="row">
+          <div class="col-sm-4 offset-md-4">
+            <div class="card animated flipInY" style="width: 30rem;">
+                <img class="card-img-top" src="/img/brandon.jpg" alt="Contacto">
+                <div class="card-body">
+                  <h5 class="card-title">Ñor Oviedo</h5>
+                  <h6 class="card-text">Con disponibilidad 25/8 para todas las nenas.</h6>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Teléfono: 8768-9781</li>
+                  <li class="list-group-item">Correo: boviedos.98@gmail.com</li>
+                  <li class="list-group-item">Telegram: brandon1698</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    <!-- FOOTER -->
+    <%- include('partials/footer.ejs')%>
+</body>
+</html>
